@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Students Registration</title>
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static "style.css" %}">
+
+
+</head>
+<body>
+<h1>Students Registration Form</h1>
+
+<form action=""  method="POST">
+    {% csrf_token %}
+    {{ rForm.as_p }}
+
+      <input type="submit" name="Student" value="register">
+
+</form>
+
+</body>
+</html>

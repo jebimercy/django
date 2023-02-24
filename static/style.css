@@ -1,0 +1,13 @@
+body{
+    background-color: burlywood;
+    color: black;
+    font: 12px verdana, sans-serif;
+    text-align: center;
+    margin: 0px;
+	padding: 20px 0px 20px 0px;
+}
+
+html{
+    margin: 0;
+	padding: 0;
+}
